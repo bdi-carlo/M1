@@ -1,0 +1,100 @@
+#bt1{
+	background-image: url("https://www.tagemajor.com/mesimages/article/Calcul%20mental%202.jpg");
+	background-size: 130px 100px;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 130px;
+}
+
+#bt2{
+	background-image: url("https://media.senscritique.com/media/000009272346/source_big/Allo_Devinez_le_Mot_Jeu_d_Association_de_Mots_Style_Taboo.png");
+	background-size: 130px 100px;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 130px;
+}
+
+#bt3{
+	background-image: url("https://previews.123rf.com/images/somchaij/somchaij1205/somchaij120500408/13546248-alphabet-letter-using-plasticine-and-clay-forming-word-learn.jpg");
+	background-size: 200px 100px;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 200px;
+	margin-top: 40px;
+}
+
+#titre{
+	font-size: 32px;
+	padding: 16px;
+	font-weight: lighter;
+	-moz-box-shadow: 2px 2px 6px #49484;  
+	-webkit-box-shadow: 2px 2px 6px #49484;
+	box-shadow: 2px 2px 6px #49484;  
+	text-align: center;
+	display: block;
+	margin: 16px;
+	background-color: #494846;
+	color: #f2952b;
+}
+
+h2{
+	text-align: center;
+}
+
+#buttons{
+	margin-top: 20px;
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+	margin-top: 50px;
+}
+
+tr{
+	text-align: center;
+}
+
+.plus{
+	background-image: url(https://image.freepik.com/free-icon/plus-sign_318-32580.jpg);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 20px;
+}
+
+.object{
+	background-image: url(https://www.decowoerner.com/images/contentUploads/pictures/500_599/598/www/101000/598_910_00-1-0-00.jpg);
+	background-size: 60px 60px;
+	background-repeat: no-repeat;
+	height: 60px;
+	width: 60px;
+}
+
+.moins{
+	background-image: url(https://image.freepik.com/free-icon/minus-sign_318-59392.jpg);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 20px;
+}
+
+#btnTable{
+	margin-top: 4px;
+	margin-right: 4px;
+}
+
+#answer{
+	color: red;
+	font-style: bold;
+	font-size: 20px;
+	margin-top: 6px;
+}
+
+#score{
+	text-align: center;
+	color: green;
+	font-style: bold;
+	font-size: 40px;
+	margin-top: 10px;
+}

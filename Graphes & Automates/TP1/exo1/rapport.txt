@@ -1,0 +1,39 @@
+exo1:
+
+1.2.
+fstcompile --acceptor --isymbols=A.isyms A.txt A.fsa
+
+3.
+fstdraw --acceptor --portrait --isymbols=A.isyms A.fsa | dot -Tpng > A.png
+
+4.
+	A)
+		aa
+		babab
+		aba
+		abab
+		bbbbbabbbbbbbabbbbbb
+	B)
+		b
+		bb
+		bbb
+		bbbb
+		
+5.
+fstunion A.fsa B.fsa C.fsa
+fstintersect A.fsa B.fsa D.fsa
+fstconcat A.fsa B.fsa E.fsa
+complémentaire n'existe pas
+fstclosure A.fsa G.fsa
+fstclosure B.fsa H.fsa
+
+6.
+fstrmepsilon C.fsa I.fsa
+fstdeterminize I.fsa Id.fsa
+fstdeterminize C.fsa Cd.fsa
+
+8.
+	1-3 et 2-4
+	
+9.
+fstshortestpath --nshortest=4 A.fsa A4.fsa

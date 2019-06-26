@@ -1,0 +1,6 @@
+0 1 h homme
+1 2 o <epsilon>
+2 3 m <epsilon>
+3 4 m <epsilon>
+4 5 e <epsilon>
+5
